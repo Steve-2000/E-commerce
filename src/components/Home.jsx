@@ -1,11 +1,11 @@
 import React, { Fragment, useEffect, useState,useRef } from "react";
 import Metadata from "../utilities/Metadata";
 import { useDispatch, useSelector } from "react-redux";
-import { getproducts } from "../actions/Productactions";
+import { getproducts } from "../actions/ProductActions";
 import { Link, useSearchParams } from "react-router-dom";
 import Loader from "../utilities/Loader";
  import { toast } from 'react-toastify';
-import ProductDetail from "./layouts/ProductDetail";
+
 import ReactPaginate from 'react-paginate';
 import NotFound from "./layouts/NotFound";
 import Slider from "../utilities/Slider";
