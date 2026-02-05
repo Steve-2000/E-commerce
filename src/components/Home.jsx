@@ -98,7 +98,7 @@ const scrollToBottom = () => {
     <Fragment>
     <Metadata title={"Latest Products"} />
       <h1 ref={topRef} id="products_heading" className="text-center my-4">{category?category:keyword?keyword:"latest prdoucts" }</h1>
-<button onClick={scrollToBottom}>⬇ Go Bottom</button>
+{/* <button onClick={scrollToBottom}>⬇ Go Bottom</button> */}
         {loading ? <Loader/>:  <section id="products" className="container mt-5">
         <div className="row">
           <div className="col-md-3 mt-5">
